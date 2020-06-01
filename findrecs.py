@@ -39,5 +39,11 @@ if __name__ == '__main__':
     titles=data.read().splitlines()
     for title in titles:
         recs=get_recs(title,"373322-DiRecTre-D1E4Z4FG")
+        tbr=[]
+        for rec in recs:
+            if rec not in titles:
+                tbr.append(rec)
+        for r in tbr:
+            recs.remove(r)
         if(len(recs)>0):
             append_csv(title,recs)
