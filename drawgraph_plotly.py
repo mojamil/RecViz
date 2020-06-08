@@ -1,6 +1,10 @@
 import plotly.graph_objects as go
+import networkx as nx
 from makegraph import get_vertices
 G=get_vertices()
+poss=nx.spring_layout(G,scale=8)
+for pos in poss:
+    G.nodes[pos]["pos"]=poss[pos]
 
 edge_x = []
 edge_y = []
@@ -65,12 +69,9 @@ fig = go.Figure(data=[edge_trace, node_trace],
                 titlefont_size=16,
                 showlegend=False,
                 hovermode='closest',
+                width=1600,
+                height=900,
                 margin=dict(b=20,l=5,r=5,t=40),
-                annotations=[ dict(
-                    text="Python code: <a href='https://plotly.com/ipython-notebooks/network-graphs/'> https://plotly.com/ipython-notebooks/network-graphs/</a>",
-                    showarrow=False,
-                    xref="paper", yref="paper",
-                    x=0.005, y=-0.002 ) ],
                 xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
                 yaxis=dict(showgrid=False, zeroline=False, showticklabels=False))
                 )
