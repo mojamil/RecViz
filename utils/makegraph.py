@@ -27,7 +27,7 @@ for y in range(len(sumarr)-1):
             i+=1
 def get_vertices():
     G=nx.Graph()
-    fil=open("recs.csv","r")
+    fil=open("utils/recs.csv","r")
     data=csv.DictReader(fil)
     for row in data:
         G.add_node(row["title"],name=row["title"],genre=genredict[row["title"]][0])

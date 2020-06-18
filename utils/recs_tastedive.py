@@ -1,5 +1,5 @@
 import requests
-def get_recs(title,key):
+def get_recs_tv(title,key):
     r=requests.get(f"https://tastedive.com/api/similar?q=show:{title}&k={key}")
     results=r.json()["Similar"]["Results"]
     recs=[]

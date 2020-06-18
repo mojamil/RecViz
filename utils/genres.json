@@ -1,89 +1,11 @@
 {
-    "Space Force": [
-        "Comedy"
-    ],
-    "Rick and Morty": [
-        "Animation",
-        "Comedy",
-        "Sci-Fi & Fantasy",
-        "Action & Adventure"
-    ],
-    "Snowpiercer": [
-        "Sci-Fi & Fantasy"
-    ],
     "Game of Thrones": [
         "Sci-Fi & Fantasy",
         "Drama"
     ],
-    "Killing Eve": [
-        "Crime",
-        "Drama"
-    ],
-    "13 Reasons Why": [
-        "Drama",
-        "Mystery"
-    ],
-    "Community": [
-        "Comedy"
-    ],
-    "Sweet Magnolias": [
-        "Drama"
-    ],
-    "Defending Jacob": [
-        "Drama",
+    "Stranger Things": [
         "Mystery",
-        "Crime"
-    ],
-    "Dark": [
         "Sci-Fi & Fantasy",
-        "Drama",
-        "Mystery",
-        "Crime"
-    ],
-    "Avatar: The Last Airbender": [
-        "Action",
-        "Adventure",
-        "Animation",
-        "Fantasy"
-    ],
-    "The Office": [
-        "Comedy"
-    ],
-    "The 100": [
-        "Sci-Fi & Fantasy",
-        "Drama",
-        "Action & Adventure"
-    ],
-    "Ozark": [
-        "Crime",
-        "Drama"
-    ],
-    "Money Heist": [
-        "Crime",
-        "Drama"
-    ],
-    "Vikings": [
-        "Action & Adventure",
-        "Drama"
-    ],
-    "The Last Kingdom": [
-        "Action & Adventure",
-        "Drama"
-    ],
-    "Breaking Bad": [
-        "Drama"
-    ],
-    "White Lines": [
-        "Drama",
-        "Crime",
-        "Mystery"
-    ],
-    "Dead to Me": [
-        "Drama",
-        "Mystery",
-        "Crime"
-    ],
-    "Grey's Anatomy": [
         "Drama"
     ],
     "The Walking Dead": [
@@ -91,250 +13,59 @@
         "Drama",
         "Sci-Fi & Fantasy"
     ],
-    "Supernatural": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi & Fantasy"
-    ],
-    "Little Fires Everywhere": [
-        "Drama"
-    ],
-    "Peaky Blinders": [
-        "Drama",
-        "Crime"
-    ],
-    "Friends": [
-        "Comedy",
-        "Drama"
-    ],
-    "Westworld": [
-        "Western",
-        "Science Fiction"
-    ],
-    "The Great": [
-        "Comedy"
-    ],
-    "Normal People": [
-        "Drama"
-    ],
-    "Criminal Minds": [
-        "Crime",
+    "13 Reasons Why": [
         "Drama",
         "Mystery"
     ],
-    "Billions": [
-        "Drama"
-    ],
-    "Ramy": [
-        "Comedy"
-    ],
-    "Stargirl": [
-        "Action & Adventure",
-        "Drama",
-        "Crime",
-        "Sci-Fi & Fantasy"
-    ],
-    "Black Mirror": [
+    "The 100": [
         "Sci-Fi & Fantasy",
-        "Drama"
-    ],
-    "Modern Family": [
-        "Comedy"
-    ],
-    "Agents of S.H.I.E.L.D.": [
         "Drama",
-        "Sci-Fi & Fantasy",
         "Action & Adventure"
     ],
-    "Outlander": [
-        "Adventure",
-        "Drama",
-        "Fantasy",
-        "Romance"
-    ],
-    "Dynasty": [
-        "Soap",
-        "Drama"
-    ],
-    "Upload": [
+    "Orange Is the New Black": [
         "Comedy",
-        "Sci-Fi & Fantasy"
-    ],
-    "What We Do in the Shadows": [
-        "Comedy"
-    ],
-    "Stranger Things": [
-        "Mystery",
-        "Sci-Fi & Fantasy",
-        "Drama"
-    ],
-    "Brooklyn Nine-Nine": [
-        "Comedy",
-        "Crime"
-    ],
-    "Schitt's Creek": [
-        "Comedy"
-    ],
-    "Homecoming": [
-        "Drama"
-    ],
-    "Lucifer": [
-        "Crime",
-        "Sci-Fi & Fantasy"
-    ],
-    "The Flash": [
-        "Drama",
-        "Sci-Fi & Fantasy"
-    ],
-    "Lost": [
-        "Action & Adventure",
-        "Drama",
-        "Mystery",
-        "Sci-Fi & Fantasy"
-    ],
-    "Fuller House": [
-        "Family",
-        "Comedy"
-    ],
-    "Hollywood": [
-        "Drama"
-    ],
-    "Better Call Saul": [
-        "Comedy",
-        "Crime",
         "Drama"
     ],
     "Riverdale": [
         "Drama",
         "Mystery"
     ],
-    "Homeland": [
+    "Grey's Anatomy": [
+        "Drama"
+    ],
+    "The Flash": [
         "Drama",
-        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+    ],
+    "Arrow": [
         "Crime",
-        "War & Politics"
+        "Drama",
+        "Mystery",
+        "Action & Adventure"
+    ],
+    "Money Heist": [
+        "Crime",
+        "Drama"
     ],
     "The Big Bang Theory": [
         "Comedy"
     ],
-    "The Blacklist": [
-        "Drama",
-        "Crime",
-        "Mystery"
-    ],
-    "Sons of Anarchy": [
-        "Crime",
-        "Drama"
-    ],
-    "The Sopranos": [
-        "Drama"
-    ],
-    "Paatal Lok": [
-        "Crime",
-        "Mystery"
-    ],
-    "Outer Banks": [
-        "Drama",
-        "Action & Adventure"
-    ],
-    "DC's Legends of Tomorrow": [
-        "Action & Adventure",
-        "Drama",
-        "Sci-Fi & Fantasy"
-    ],
-    "Dirty John": [
-        "Drama"
-    ],
-    "Jeffrey Epstein: Filthy Rich": [
-        "Crime",
-        "Documentary"
-    ],
-    "Barkskins": [
-        "Drama"
-    ],
-    "Perry Mason": [
-        "Mystery",
-        "Drama",
-        "Crime"
-    ],
-    "The Mandalorian": [
-        "Sci-Fi & Fantasy",
-        "Action & Adventure"
-    ],
-    "Glee": [
-        "Comedy",
-        "Drama"
-    ],
-    "The Last Dance": [
-        "Documentary"
-    ],
-    "Parks and Recreation": [
-        "Comedy"
-    ],
-    "Law & Order: Special Victims Unit": [
-        "Drama",
-        "Crime",
-        "Mystery"
-    ],
-    "New Girl": [
-        "Comedy"
-    ],
-    "Mad Men": [
-        "Drama"
-    ],
-    "The Wire": [
-        "Drama",
-        "Crime"
-    ],
-    "Love Life": [
-        "Comedy",
-        "Drama"
-    ],
-    "Queen of the South": [
-        "Crime"
-    ],
-    "Prison Break": [
-        "Action & Adventure",
-        "Crime",
-        "Drama"
-    ],
-    "NCIS": [
-        "Action & Adventure",
-        "Crime",
-        "Drama"
-    ],
-    "I Know This Much Is True": [
-        "Drama"
-    ],
-    "The Handmaid's Tale": [
+    "Black Mirror": [
         "Sci-Fi & Fantasy",
         "Drama"
     ],
-    "American Horror Story": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi & Fantasy"
-    ],
-    "Fargo": [
+    "Sherlock": [
         "Crime",
+        "Drama",
+        "Mystery"
+    ],
+    "Vikings": [
+        "Action & Adventure",
         "Drama"
     ],
-    "The Boys": [
-        "Sci-Fi & Fantasy",
-        "Action & Adventure"
-    ],
-    "Buffy the Vampire Slayer": [
-        "Comedy",
+    "Pretty Little Liars": [
         "Drama",
-        "Sci-Fi & Fantasy"
-    ],
-    "Betaal": [
-        "Action & Adventure"
-    ],
-    "Bosch": [
-        "Mystery",
-        "Drama",
-        "Crime"
+        "Mystery"
     ],
     "The Vampire Diaries": [
         "Drama",
@@ -342,19 +73,70 @@
         "Horror",
         "Romance"
     ],
-    "Doctor Who": [
+    "American Horror Story": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+    ],
+    "Breaking Bad": [
+        "Drama"
+    ],
+    "Lucifer": [
+        "Crime",
+        "Sci-Fi & Fantasy"
+    ],
+    "Supernatural": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+    ],
+    "Prison Break": [
         "Action & Adventure",
+        "Crime",
+        "Drama"
+    ],
+    "How to Get Away with Murder": [
+        "Crime",
+        "Drama",
+        "Mystery"
+    ],
+    "Teen Wolf": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+    ],
+    "The Simpsons": [
+        "Animation",
+        "Comedy"
+    ],
+    "Once Upon a Time": [
         "Drama",
         "Sci-Fi & Fantasy"
     ],
-    "Penny Dreadful: City of Angels": [
-        "Drama",
+    "Narcos": [
         "Crime",
-        "Mystery"
+        "Drama"
     ],
-    "House": [
-        "Drama",
+    "Daredevil": [
+        "Action",
+        "Crime"
+    ],
+    "Friends": [
         "Comedy",
+        "Drama"
+    ],
+    "How I Met Your Mother": [
+        "Comedy"
+    ],
+    "Suits": [
+        "Drama"
+    ],
+    "Mr. Robot": [
+        "Crime",
+        "Drama"
+    ],
+    "The Originals": [
+        "Sci-Fi & Fantasy",
+        "Drama",
         "Mystery"
     ],
     "Supergirl": [
@@ -363,52 +145,293 @@
         "Drama",
         "Science Fiction"
     ],
-    "How to Get Away with Murder": [
-        "Crime",
-        "Drama",
-        "Mystery"
-    ],
-    "Alex Rider": [
-        "Drama",
-        "Action & Adventure",
-        "Family"
-    ],
-    "The Witcher": [
-        "Sci-Fi & Fantasy",
-        "Drama",
-        "Action & Adventure"
-    ],
-    "The Simpsons": [
-        "Animation",
+    "Gossip Girl": [
         "Comedy"
     ],
-    "Downton Abbey": [
+    "Sense8": [
+        "Sci-Fi & Fantasy",
         "Drama"
     ],
-    "Arrow": [
-        "Crime",
+    "Gotham": [
         "Drama",
-        "Mystery",
-        "Action & Adventure"
+        "Fantasy",
+        "Crime"
     ],
-    "How I Met Your Mother": [
+    "Westworld": [
+        "Western",
+        "Science Fiction"
+    ],
+    "Jessica Jones": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+    ],
+    "Modern Family": [
         "Comedy"
     ],
-    "Gangs of London": [
+    "Rick and Morty": [
+        "Animation",
+        "Comedy",
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
+    ],
+    "Shadowhunters": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+    ],
+    "The End of the F***ing World": [
+        "Comedy",
         "Drama",
         "Crime"
     ],
-    "Chernobyl": [
+    "House of Cards": [
+        "Drama"
+    ],
+    "Dark": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Mystery",
+        "Crime"
+    ],
+    "Elite": [
+        "Crime",
+        "Mystery",
+        "Drama"
+    ],
+    "Sex Education": [
+        "Comedy",
         "Drama"
     ],
     "Shameless": [
         "Drama",
         "Comedy"
     ],
+    "New Girl": [
+        "Comedy"
+    ],
+    "Agents of S.H.I.E.L.D.": [
+        "Drama",
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
+    ],
+    "You": [
+        "Crime",
+        "Drama"
+    ],
+    "Dexter": [
+        "Crime",
+        "Drama",
+        "Mystery"
+    ],
+    "Fear the Walking Dead": [
+        "Action & Adventure",
+        "Drama"
+    ],
+    "Family Guy": [
+        "Animation",
+        "Comedy"
+    ],
+    "The Blacklist": [
+        "Drama",
+        "Crime",
+        "Mystery"
+    ],
+    "Lost": [
+        "Action & Adventure",
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+    ],
+    "Peaky Blinders": [
+        "Drama",
+        "Crime"
+    ],
+    "House M.D.": [
+        "Drama",
+        "Comedy",
+        "Mystery"
+    ],
+    "Quantico": [
+        "Crime",
+        "Drama",
+        "Mystery"
+    ],
+    "Orphan Black": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+    ],
+    "Homeland": [
+        "Drama",
+        "Action & Adventure",
+        "Crime",
+        "War & Politics"
+    ],
+    "Blindspot": [
+        "Action",
+        "Crime",
+        "Drama"
+    ],
+    "DC's Legends of Tomorrow": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+    ],
+    "The Handmaid's Tale": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+    ],
+    "Chilling Adventures of Sabrina": [
+        "Mystery",
+        "Sci-Fi & Fantasy",
+        "Drama"
+    ],
+    "The Good Doctor": [
+        "Drama"
+    ],
+    "Jane the Virgin": [
+        "Comedy",
+        "Drama"
+    ],
+    "Glee": [
+        "Comedy",
+        "Drama"
+    ],
+    "South Park": [
+        "Comedy",
+        "Animation"
+    ],
+    "Brooklyn Nine-Nine": [
+        "Comedy",
+        "Crime"
+    ],
+    "Under the Dome": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+    ],
+    "The Umbrella Academy": [
+        "Action & Adventure",
+        "Sci-Fi & Fantasy",
+        "Comedy",
+        "Drama"
+    ],
     "True Detective": [
         "Drama"
     ],
-    "Suits": [
+    "The OA": [
+        "Sci-Fi & Fantasy",
+        "Mystery",
+        "Drama"
+    ],
+    "Desperate Housewives": [
+        "Mystery",
+        "Drama",
+        "Comedy"
+    ],
+    "Better Call Saul": [
+        "Comedy",
+        "Crime",
+        "Drama"
+    ],
+    "Bates Motel": [
+        "Mystery",
+        "Drama",
+        "Crime"
+    ],
+    "The Punisher": [
+        "Action & Adventure",
+        "Crime",
+        "Drama"
+    ],
+    "Atypical": [
+        "Drama",
+        "Comedy"
+    ],
+    "Dynasty": [
+        "Soap",
+        "Drama"
+    ],
+    "This Is Us": [
+        "Comedy",
+        "Drama"
+    ],
+    "The Good Place": [
+        "Sci-Fi & Fantasy",
+        "Comedy"
+    ],
+    "Iron Fist": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+    ],
+    "The Rain": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+    ],
+    "Mindhunter": [
+        "Drama",
+        "Crime"
+    ],
+    "Revenge": [
+        "Drama",
+        "Mystery",
+        "Soap"
+    ],
+    "Luke Cage": [
+        "Drama",
+        "Sci-Fi & Fantasy",
+        "Action & Adventure",
+        "Crime"
+    ],
+    "Scandal": [
+        "Drama"
+    ],
+    "The Defenders": [
+        "Action & Adventure",
+        "Crime",
+        "Sci-Fi & Fantasy"
+    ],
+    "Big Little Lies": [
+        "Drama"
+    ],
+    "Insatiable": [
+        "Drama",
+        "Comedy"
+    ],
+    "The Mentalist": [
+        "Drama",
+        "Crime",
+        "Mystery"
+    ],
+    "The Crown": [
+        "Drama"
+    ],
+    "Chernobyl": [
+        "Drama"
+    ],
+    "iZombie": [
+        "Horror",
+        "Drama",
+        "Crime",
+        "Sci-Fi & Fantasy"
+    ],
+    "Reign": [
+        "Drama"
+    ],
+    "A Series of Unfortunate Events": [
+        "Action & Adventure",
+        "Drama"
+    ],
+    "Criminal Minds": [
+        "Crime",
+        "Drama",
+        "Mystery"
+    ],
+    "Scream: The TV Series": [
+        "Horror"
+    ],
+    "The Haunting of Hill House": [
+        "Mystery",
         "Drama"
     ]
 }

@@ -3,13 +3,13 @@ from flask import Flask, render_template, request
 from bokeh.embed import components
 import sys
 sys.path.append("./utils")
-from drawgraph import create_plot
+from drawgraph import create_tabs
 app = Flask(__name__)
 
 
 @app.route('/')
 def plot():
-    plot=create_plot()
+    plot=create_tabs()
     script, div =components(plot)
     return render_template("network.html", script=script, div=div)
 

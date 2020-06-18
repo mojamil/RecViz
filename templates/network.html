@@ -1,15 +1,34 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="UTF-8">
-    <title>Insert title here</title>
+{% extends 'base.html' %}
+{% block head %}
     <script src="https://cdn.bokeh.org/bokeh/release/bokeh-2.0.0.min.js"></script>
+    <style>
+        .bk-root {
+            margin: auto;
+            width: 75%;
+        }
+        body {
+            background-color: lightcyan;
+        }
+    </style>
     {{ script|safe }}
-</head>
+{% block title %}
+<title>Network Graph</title>  
+{% endblock %}
+{% endblock %}
 
-<body>
-
-</body>
+{% block body %}
+<br>
+<div class="container">
+    <p>
+        This graph shows how different TV shows are connected based on recommendations from TMDb. Each node
+        represents a different show which you can see by hovering your cursor over it. To see the connections
+        better you can click on a node to see them. There are different layouts in an attempt to get a better
+        visualization. The graph is made from connections within the dataset and does not attempt to add shows
+        when recommended due to the worry of expanding the list too much.
+        
+    </p>
+</div>
+<br>
 {{ div|safe }}
-</html>
+{% endblock %}
+

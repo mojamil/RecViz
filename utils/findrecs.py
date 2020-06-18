@@ -1,5 +1,5 @@
 import requests
-from recs_tmdb import get_rec
+from recs_tmdb import get_rec_tv
 
 def create_csv():
     fields=""
@@ -26,12 +26,13 @@ if __name__ == '__main__':
     data=open("data.txt","r")
     titles=data.read().splitlines()
     for title in titles:
-        recs=get_rec(title)
-        tbr=[]
-        for rec in recs:
-            if rec not in titles:
-                tbr.append(rec)
-        for r in tbr:
-            recs.remove(r)
-        if(len(recs)>0):
-            append_csv(title,recs)
+        recs=get_rec_tv(title)
+        if recs:
+            tbr=[]
+            for rec in recs:
+                if rec not in titles:
+                    tbr.append(rec)
+            for r in tbr:
+                recs.remove(r)
+            if len(recs)!=0:
+                append_csv(title.replace(",",""),recs)
