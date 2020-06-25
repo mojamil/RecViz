@@ -1,11 +1,52 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-<script type="text/javascript"></script>
-</head>
-<body>
+{% extends 'base.html' %}
+{% block head %}
+<style>
+    body {
+        background-color:#e5eff1;
+        }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    h1 {
+        text-align: center;
+    }
+</style>
+<script type="text/javascript">// <![CDATA[
+function loading(){
+    var load=document.getElementById("loading")
+    var content=document.getElementById("content")
+    var navbar=document.getElementById('navbar')
+    load.style.display = "block";
+    content.style.display = "none";
+    navbar.style.display = "none";
+}       
+</script>
+{% endblock %}
+{% block body %}
 
-</body>
-</html>
+<div id="loading" style="display: none;">
+<h1>Loading</h1>
+<img src={{ url_for('static', filename='loadingimage.gif') }} alt="">
+</div>
+<div class="container" id ="content">
+    <p>
+        The network graph will be drawn by a network graph specified here. By default it uses a dataset
+        of popular shows. You can type in "popular" to make the graph use the top 100 popular list on
+        imdb. Otherwise use the list id for an imdb list, for example, in the case of this link
+        https://www.imdb.com/list/ls095964455/ the list id is ls095964455. The graph generating process
+        takes some time so have some patience and wait for the process to finish.
+    </p>
+    <form action="./">
+        <div class="form-group">
+            <label for="listid">Input an IMDb list id</label>
+            <input type="text"
+                class="form-control" name="imdbl" id="listid" placeholder="">
+        </div>
+        <button type="submit" class="btn btn-primary" onclick="loading()">Submit</button>
+    </form>
+
+</div>
+{% endblock %}

@@ -1,15 +1,13 @@
 {% extends 'base.html' %}
 {% block head %}
-    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-2.0.0.min.js"></script>
+
     <style>
-        .bk-root {
-            margin: auto;
-            width: 75%;
-        }
-        body {
-            background-color: lightcyan;
-        }
-    </style>
+    body {
+      background-color:#e5eff1;
+    }
+  </style>
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-2.0.0.min.js"></script>
+
     {{ script|safe }}
 {% block title %}
 <title>Network Graph</title>  
@@ -27,8 +25,9 @@
         when recommended due to the worry of expanding the list too much.
         
     </p>
+    {{ div|safe }}
 </div>
 <br>
-{{ div|safe }}
+
 {% endblock %}
 

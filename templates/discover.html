@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% block head %}
+
+    <style>
+    body {
+      background-color:#e5eff1;
+    }
+  </style>
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-2.0.0.min.js"></script>
+
+    {{ script|safe }}
+{% block title %}
+<title>Network Graph</title>  
+{% endblock %}
+{% endblock %}
+
+{% block body %}
+<br>
+<div class="container">
+    <p>
+        This graph allows you to find common recommendations for multiple shows visually.
+        Input maximum 6 shows seperated by commas and it will draw a network graph showing the recommendations
+        for all the shows.
+    </p>
+    <form action="./discover">
+      <div class="row">
+      {% for i in range(6) %}
+        <div class="col-sm">
+            <label for=""></label>
+            <input type="text"
+              class="form-control" name="title{{i}}" aria-describedby="helpId" placeholder="">
+            <small id="helpId" class="form-text text-muted">Enter title</small>
+        </div>
+      
+      {% endfor %}
+
+      </div> 
+      <br>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br>
+    {{ div|safe }}
+</div>
+<br>
+
+{% endblock %}
+

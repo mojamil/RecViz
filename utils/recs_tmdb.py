@@ -6,7 +6,10 @@ def get_show_id(name):
         return None
     results=r.json()["results"][0]['id']
     return results
-
+def get_title(name):
+    idno=get_show_id(name)
+    r=requests.get(f"https://api.themoviedb.org/3/tv/{idno}?api_key={key}&language=en-US")
+    return r.json()['name']
 def get_rec_tv(name):
     idno=get_show_id(name)
     if not idno:
@@ -14,6 +17,14 @@ def get_rec_tv(name):
     r=requests.get(f"https://api.themoviedb.org/3/tv/{idno}/recommendations?api_key={key}&language=en-US&page=1")
     results=[x["name"] for x in r.json()["results"]]
     return results[:5]
+
+def get_rec_tv_dis(name):
+    idno=get_show_id(name)
+    if not idno:
+        return None
+    r=requests.get(f"https://api.themoviedb.org/3/tv/{idno}/recommendations?api_key={key}&language=en-US&page=1")
+    results=[x["name"] for x in r.json()["results"]]
+    return results[:10]
 
 def get_rec_movies(name):
     idno=get_show_id(name)
