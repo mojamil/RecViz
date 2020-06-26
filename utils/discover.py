@@ -31,6 +31,8 @@ def get_titles_tmdb(queries):
     return titledict
 def make_graph(queries):
     queries=[get_title(x) for x in queries]
+    if None in queries:
+        return None
     titledict=get_titles_tmdb(queries)
     G=nx.Graph()
     for title in titledict.keys():
@@ -45,8 +47,12 @@ def make_graph(queries):
     angle2=0
     delta2=(2*math.pi)/(len(titledict.keys())-len(queries))
     for query in queries:
-        posx=0.5*math.cos(angle1)
-        posy=0.5*math.sin(angle1)
+        if len(queries)==1:
+            posx=0
+            posy=0
+        else:
+            posx=0.5*math.cos(angle1)
+            posy=0.5*math.sin(angle1)
         G.nodes[query]['pos']=(posx,posy)
         angle1+=delta
         for title in titledict[query]:

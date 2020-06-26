@@ -9,6 +9,8 @@ def get_show_id(name):
 def get_title(name):
     idno=get_show_id(name)
     r=requests.get(f"https://api.themoviedb.org/3/tv/{idno}?api_key={key}&language=en-US")
+    if not idno:
+        return None
     return r.json()['name']
 def get_rec_tv(name):
     idno=get_show_id(name)

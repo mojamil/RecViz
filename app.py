@@ -37,6 +37,8 @@ def disc():
                 queries.append(request.args[f"title{i}"])
         if len(queries)>0:
             G=make_graph(queries)
+            if G==None:
+                return redirect(url_for('disc'))
             plot=discover(G)
             nx.write_gml(G,"utils/discover.gml")
         return redirect(url_for('disc'))
