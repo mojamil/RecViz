@@ -1,6 +1,10 @@
 import requests
 import json
 from recs_tmdb import get_genres
+'''
+    This script gets the genres for each title in data.txt
+    It think writes those genres into a json file
+'''
 key="35538ef41d68bc78e5db88a7286d6207"
 genres={}
 data=open("utils/data.txt","r")
