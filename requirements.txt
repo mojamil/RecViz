@@ -35,3 +35,5 @@ praw == 7.1.0
 # RecViz/utils/recs_tastedive.py: 1
 # RecViz/utils/recs_tmdb.py: 1
 requests == 2.20.0
+
+gunicorn == 20.0.4 
