@@ -34,4 +34,4 @@ praw == 7.1.0
 # RecViz/utils/genre_list.py: 1
 # RecViz/utils/recs_tastedive.py: 1
 # RecViz/utils/recs_tmdb.py: 1
-requests == 2.18.4
+requests == 2.20.0
