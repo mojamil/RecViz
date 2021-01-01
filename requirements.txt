@@ -4,7 +4,7 @@
 Flask == 1.1.2
 
 # RecViz/utils/genlist.py: 1
-IMDbPY == 6.9.dev20200529
+IMDbPY == 2020.9.25
 
 # RecViz/utils/fetch_list.py: 2
 beautifulsoup4 == 4.6.0
