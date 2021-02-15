@@ -1,6 +1,6 @@
 import requests
 
-key="35538ef41d68bc78e5db88a7286d6207" # Fill this in with your API key for tmdb (https://developers.themoviedb.org/3)
+key="" # Fill this in with your API key for tmdb (https://developers.themoviedb.org/3)
 def get_show_id(name):
     '''
         The tmdb api requires an id to get more information about shows
