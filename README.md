@@ -6,6 +6,7 @@ This is a program that I made to understand preferences in television shows. It 
 - Make sure you have python3 on your system
 - Create a virtual environment if you want to following these instructions: https://docs.python.org/3/library/venv.html
 - Run `pip install -r requirements.txt` in the terminal
+- Replace the key variable in utils/recs_tmdb.py with an API key from tmdb. Use these instructions to get the key: https://developers.themoviedb.org/3/getting-started/introduction
 - Run `python app.py`
 - That should start running the flask app on localhost
 - Navigate to a browser using the link displayed in the terminal
